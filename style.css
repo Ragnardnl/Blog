@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "italic";
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    font-family: "variable";
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+    font-family: "extrabold";
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+    font-family: "semibold";
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+* {
+    font-family: "italic";
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Figtree:ital";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: hsl(47, 88%, 63%);
+    width: 100%;
+}
+.imagem {
+    width: 95%;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+main {
+    max-width: 400px;
+    min-width: 300px;
+    height: 550px;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    padding: 15px 0px 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 15px 15px 0px -2px black;
+    border: 1px solid black;
+}
+.learning {
+    width: 30%;
+    font-size: 16px;
+    background-color: #f5d04e;
+    padding: 10px 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+.h1 {
+    width: 95%;
+    padding: 10px 0px;
+    font-size: 24px;
+}
+h1:hover {
+    color: #f5d04e;
+}
+.primeiro {
+    width: 95%;
+    font-family: "semibold";
+    font-size: 16px;
+    padding: 10px 0px;
+}
+.segundo {
+    font-family: "variable";
+    line-height: 1.5em;
+    font-size: 20px;
+    width: 95%;
+    padding: 10px 0px;
+    color: hsl(0, 0%, 42%);
+}
+.container  img {
+    float: left;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+.container  p {
+    text-align: justify;
+}
+.flex {
+    width: 95%;
+    padding: 30px 0px 0px 0px;
+}
